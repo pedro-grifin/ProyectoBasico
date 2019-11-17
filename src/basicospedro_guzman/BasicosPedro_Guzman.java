@@ -12,8 +12,23 @@ package basicospedro_guzman;
 public class BasicosPedro_Guzman {
 
     /**
-     * @param args the command line arguments
+     * Método para mostrar ejemplos de tipo String.
      */
+    public static void numericos() {
+
+       String cadena;
+       String cadena2;
+
+        //Ejemplos de asignación de valores a las variables de tipo String
+        cadena = "envía un mensaje al foro.";
+        cadena2 = "puedes comenzar.";
+
+        //Mostrar en pantalla el contendido de las variables de tipo String.
+        System.err.println("Valor cadena");
+        System.out.println(cadena);
+        System.out.println("Valor cadena2");
+        System.out.println(cadena2);
+    }
     public static void main(String[] args) {
         // TODO code application logic here
     }
