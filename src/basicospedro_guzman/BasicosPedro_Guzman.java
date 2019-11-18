@@ -16,13 +16,12 @@ public class BasicosPedro_Guzman {
      */
     public static boolean logicos() {
 
-       
         boolean tienesDudas;
        
         //Ejemplos de asignación de valores a las variables de tipo booleano
         tienesDudas = true;
         
-        //Mostrar en pantalla el contendido de las variables de tipo booleano mediante operadores logicos. 
+        //Este metodo devuelve un valor booleano que utilizaremos con operadores logicos para elegir una opcion u otra.
         return tienesDudas;
     }
     public static void main(String[] args) {
