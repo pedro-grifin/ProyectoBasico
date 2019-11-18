@@ -13,6 +13,8 @@ public class BasicosPedro_Guzman {
 
       /**
      * Método para mostrar ejemplos de tipos numericos.
+    /**
+     * Método para mostrar ejemplos de tipo String.
      */
     public static void numericos() {
 
@@ -33,10 +35,25 @@ public class BasicosPedro_Guzman {
         System.out.println(entero);
         System.out.println("Valor doble");
         System.out.println(doble);
-        
+    }
+    public static void cadenas() {
+
+       String cadena;
+       String cadena2;
+
+        //Ejemplos de asignación de valores a las variables de tipo String
+        cadena = "envía un mensaje al foro.";
+        cadena2 = "puedes comenzar.";
+
+        //Mostrar en pantalla el contendido de las variables de tipo String.
+        System.out.println("Valor cadena");
+        System.out.println(cadena);
+        System.out.println("Valor cadena2");
+        System.out.println(cadena2);
     }
     public static void main(String[] args) {
         numericos();
+       cadenas();
     }
     
 }
