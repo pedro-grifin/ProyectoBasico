@@ -29,13 +29,14 @@ public class BasicosPedro_Guzman {
         doble = 5.6;
 
         //Mostrar en pantalla el contendido de las variables de tipos básicos.
-        System.err.println("Valor entero");
+        System.out.println("Valor entero");
         System.out.println(entero);
         System.out.println("Valor doble");
         System.out.println(doble);
+        
     }
     public static void main(String[] args) {
-        // TODO code application logic here
+        numericos();
     }
     
 }
