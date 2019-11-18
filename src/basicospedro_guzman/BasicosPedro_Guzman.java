@@ -15,6 +15,7 @@ public class BasicosPedro_Guzman {
      * Método para mostrar ejemplos de tipos numericos.
     /**
      * Método para mostrar ejemplos de tipo String.
+     * Método para mostrar ejemplos de tipos numericos.
      */
     public static void numericos() {
 
@@ -51,9 +52,25 @@ public class BasicosPedro_Guzman {
         System.out.println("Valor cadena2");
         System.out.println(cadena2);
     }
+    public static boolean logicos() {
+
+        boolean tienesDudas;
+       
+        //Ejemplos de asignación de valores a las variables de tipo booleano
+        tienesDudas = true;
+        
+        //Este metodo devuelve un valor booleano que utilizaremos con operadores logicos para elegir una opcion u otra.
+        return tienesDudas;
+    }
     public static void main(String[] args) {
-        numericos();
+       numericos();
        cadenas();
+        System.out.println("si tienes dudas: ");
+       if (logicos()==true){
+           System.out.println("envía un mensaje al foro.");
+           
+       }else{System.out.println("puedes comenzar.");}
+        
     }
     
 }
